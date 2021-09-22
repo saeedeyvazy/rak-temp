@@ -1,0 +1,35 @@
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	flex: 1;
+}
+
+.footer-left-part {
+	border-top: 1px solid white;
+	padding-top: 50px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	flex: 1;
+	margin-right: 10px;
+	font-family: 'Lato', sans-serif;
+}
+
+.footer-right-part {
+	border-top: 1px solid white;
+	padding-top: 50px;
+	text-align: right;
+	font-weight: 200;
+	font-size: 14px;
+	line-height: 24px;
+	flex: 1;
+	margin-left: 10px;
+	font-family: 'Yekan';
+}
+
+.footer-container p {
+	color: white;
+	margin: 0;
+}
