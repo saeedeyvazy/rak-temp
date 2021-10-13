@@ -4,6 +4,7 @@
 	align-items: center;
 	justify-content: center;
 	flex: 1;
+	cursor: pointer;
 	/* place-items: center; */
 }
 .card-container > * {
