@@ -34,3 +34,15 @@
 	color: white;
 	margin: 0;
 }
+
+@media screen and (max-width: 480px) {
+	.rect {
+		display: none;
+	}
+	.footer-container {
+		flex-direction: column;
+	}
+	.footer-container > * {
+		margin: 20px 0;
+	}
+}

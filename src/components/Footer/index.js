@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.css'
 import { RECT } from '../../images'
+import '../../util/common'
 function Footer() {
 	return (
 		<div className='footer-container'>
@@ -10,13 +11,13 @@ function Footer() {
 				<p>+98 21 4772 6000</p>
 				<p>info@nikanaghsh.com</p>
 			</div>
-			<div style={{ marginTop: '-8px' }}>
+			<div className='rect' style={{ marginTop: '-8px' }}>
 				<img src={RECT} alt='' />
 			</div>
 			<div className='footer-right-part'>
 				<p>تهران، میدان ونک، ملاصدرا، خیابان شیراز جنوبی، کوچه</p>
 				<p>بهار دوم، پلاک ۲، واحد ۲</p>
-				<p>+98 (21) 477 26 000</p>
+				<p>{'+98 (21) 477 26 000'.toIndiaDigits()}</p>
 				<p>info@nikanaghsh.com</p>
 			</div>
 		</div>
