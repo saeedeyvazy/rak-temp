@@ -10,10 +10,12 @@ function CardList() {
 				link='https://www.instagram.com/rakceramicsiran'
 				image={RAK_LOGO}
 				description='rakceramicsiran.com'
+				siteLink='http://rakceramicsiran.com'
 			/>
 			<Card
 				link='https://www.instagram.com/pvreceramics'
 				image={PVRE_LOGO}
+				siteLink='http://pvreceramics.com/'
 				description='pvreceramics.com'
 			/>
 		</div>

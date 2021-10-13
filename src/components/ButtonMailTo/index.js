@@ -8,6 +8,7 @@ const ButtonMailto = ({ mailto, label }) => {
 				cursor: 'pointer',
 				fontWeight: 400,
 				fontFamily: 'Lato',
+				fontSize: '18px',
 			}}
 			to='#'
 			onClick={(e) => {
